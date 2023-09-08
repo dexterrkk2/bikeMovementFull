@@ -11,8 +11,8 @@ namespace Chapter.State
             if (!_bikeController)
             {
                 _bikeController = bikeController;
-                _bikeController.CurrentSpeed = 0;
             }
+            _bikeController.CurrentSpeed = 0;
         }
     }
 }

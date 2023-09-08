@@ -35,7 +35,7 @@ public class Gamemanager : MonoBehaviour
     }
     private void OnGUI()
     {
-        if(GUILayout.Button("Next Scene"))
+        if(GUI.Button(new Rect(25,25,100,30),"Next Scene"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
